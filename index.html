@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nobre Sabor Petiscaria — Carmópolis de Minas</title>
+<meta name="description" content="Gastrobar em Carmópolis de Minas com porções caprichadas, drinks exclusivos e vista belíssima da cidade. 4.8★ no Google com 295 avaliações. Qui–Sáb 18h30 · Dom 11h.">
+<meta property="og:title" content="Nobre Sabor Petiscaria — Carmópolis de Minas">
+<meta property="og:description" content="Gastrobar com porções caprichadas, drinks exclusivos e vista belíssima. (37) 99965-1328">
+<meta property="og:type" content="restaurant">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/5537999651328" target="_blank" class="fab-whatsapp" aria-label="Chamar no WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span>Chamar no WhatsApp</span>
+</a>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">↑</button>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="#" class="nav-logo">NOBRE<span>_</span>SABOR</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#cardapio">Cardápio</a></li>
+    <li><a href="#avaliacoes">Avaliações</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="tel:+5537999651328" class="nav-cta">Reservas</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-noise"></div>
+  <div class="hero-bg-text">NOBRE SABOR PETISCARIA</div>
+
+  <div class="hero-grid">
+    <div class="hero-left">
+      <svg class="crown-svg" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 40 L15 15 L30 30 L45 15 L55 40 Z" fill="none" stroke="#e0c389" stroke-width="1.5"/>
+        <path d="M30 22 L26 28 L34 28 Z" fill="#e0c389"/>
+        <line x1="5" y1="44" x2="55" y2="44" stroke="#e0c389" stroke-width="1.5"/>
+      </svg>
+      <div class="tag">Petiscaria · Carmópolis de Minas · MG</div>
+      <h1 class="hero-title">
+        Um sabor<span>que não<br>esquece.</span>
+      </h1>
+      <p class="hero-subtitle">Gastronomia que vira memória.</p>
+      <p class="hero-desc">
+        Petiscos sofisticados, drinks exclusivos, cervejas geladas e uma vista que deixa qualquer tarde mais leve. O Nobre Sabor é o lugar onde cada visita vira história.
+      </p>
+      <div class="hero-ctas">
+        <a href="tel:+5537999651328" class="btn-primary"><span>📞 Fazer Reserva</span></a>
+        <a href="https://wa.me/5537999651328" target="_blank" class="btn-outline">Cardápio no WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <div class="floating-badge">
+            <div class="floating-badge-text">4.8★<br>GOOGLE</div>
+          </div>
+          <div class="rating-display">
+            <div class="rating-num">4.8</div>
+            <div class="rating-stars">
+              <div class="stars">★★★★★</div>
+              <div class="rating-count">295 avaliações no Google</div>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-reviews">
+            <div class="review-item">
+              "Funcionários dispostos a atender bem o cliente em quaisquer circunstâncias são raros... Parabéns ao @Nobre Sabor!"
+              <div class="review-author">— Carol Silva · Jantar R$80–100</div>
+            </div>
+            <div class="review-item">
+              "Ótimo atendimento, lugar aconchegante, porções muito caprichadas. Ótimos drinks."
+              <div class="review-author">— Sabrina Aryane · Local Guide</div>
+            </div>
+            <div class="review-item">
+              "Vista belíssima da cidade de Carmópolis. Para você passar a tarde é muito gostoso."
+              <div class="review-author">— Jussara · Local Guide · 5/5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip" aria-hidden="true">
+  <div class="strip-inner">
+    <span class="strip-item">PETISCOS SOFISTICADOS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">DRINKS EXCLUSIVOS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">CERVEJAS GELADAS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">VISTA INCRÍVEL</span><span class="strip-dot">◆</span>
+    <span class="strip-item">RESERVAS DISPONÍVEIS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">ATENDIMENTO 5 ESTRELAS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">PETISCOS SOFISTICADOS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">DRINKS EXCLUSIVOS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">CERVEJAS GELADAS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">VISTA INCRÍVEL</span><span class="strip-dot">◆</span>
+    <span class="strip-item">RESERVAS DISPONÍVEIS</span><span class="strip-dot">◆</span>
+    <span class="strip-item">ATENDIMENTO 5 ESTRELAS</span><span class="strip-dot">◆</span>
+  </div>
+</div>
+
+<!-- SOCIAL PROOF -->
+<div class="social-proof reveal">
+  <div class="proof-item">
+    <div class="proof-num counter" data-target="4.8" data-decimal="1">0</div>
+    <div class="proof-label">Nota no Google</div>
+  </div>
+  <div class="proof-divider"></div>
+  <div class="proof-item">
+    <div class="proof-num counter" data-target="295">0</div>
+    <div class="proof-label">Avaliações</div>
+  </div>
+  <div class="proof-divider"></div>
+  <div class="proof-item">
+    <div class="proof-num">5/5</div>
+    <div class="proof-label">Comida · Serviço · Ambiente</div>
+  </div>
+  <div class="proof-divider"></div>
+  <div class="proof-item">
+    <div class="proof-num counter" data-target="7188" data-suffix="+" data-abbrev="7k">7k+</div>
+    <div class="proof-label">Seguidores Instagram</div>
+  </div>
+  <div class="proof-divider"></div>
+  <div class="proof-item">
+    <div class="proof-num">#1</div>
+    <div class="proof-label">Petiscaria de Carmópolis</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="sobre">
+  <div class="reveal">
+    <div class="section-eyebrow">Quem somos</div>
+    <h2 class="section-title">Mais que um<br>restaurante.<br><em>Uma experiência.</em></h2>
+    <p class="section-body">
+      O Nobre Sabor é um gastrobar com ambiente familiar e aconchegante em Carmópolis de Minas. Trabalhamos com porções caprichadas, drinks especiais, vinhos selecionados e cervejas extremamente geladas — Heineken, Original, Brahma e outras.
+    </p>
+    <p class="section-body">
+      Servimos jantar e um delicioso almoço aos domingos. Nossas jantas fresquinhas incluem Picanha, Parmegiana, Filé Mignon, Salmão, Tilápia e muito mais. Fazemos reservas para datas especiais.
+    </p>
+    <div class="values-grid">
+      <div class="value-item">
+        <div class="value-label">Missão</div>
+        <div class="value-desc">Momentos memoráveis com sabores únicos e atendimento excepcional.</div>
+      </div>
+      <div class="value-item">
+        <div class="value-label">Visão</div>
+        <div class="value-desc">A petiscaria mais renomada da região, referência em qualidade.</div>
+      </div>
+      <div class="value-item">
+        <div class="value-label">Ambiente</div>
+        <div class="value-desc">Mesas externas, vista privilegiada da cidade, espaço familiar.</div>
+      </div>
+      <div class="value-item">
+        <div class="value-label">Valores</div>
+        <div class="value-desc">Excelência, criatividade, autenticidade e paixão pelo que fazemos.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-visual reveal">
+    <div class="about-box">
+      <svg class="about-box-crown" width="300" height="250" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 40 L15 15 L30 30 L45 15 L55 40 Z" fill="none" stroke="#ede3d9" stroke-width="0.8"/>
+        <path d="M30 22 L26 28 L34 28 Z" fill="#ede3d9"/>
+        <line x1="5" y1="44" x2="55" y2="44" stroke="#ede3d9" stroke-width="0.8"/>
+      </svg>
+    </div>
+    <div class="about-stat-overlay">
+      <div class="stat-number">+6</div>
+      <div class="stat-label">Anos servindo</div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU CALLOUT -->
+<section class="menu-callout" id="cardapio">
+  <div class="menu-callout-header reveal">
+    <div class="section-eyebrow" style="justify-content:center;">Cardápio</div>
+    <h2 class="section-title" style="text-align:center;">O que vai no seu<br><em>prato hoje?</em></h2>
+  </div>
+
+  <div class="menu-items reveal">
+    <div class="menu-item">
+      <div class="menu-item-content">
+        <span class="menu-item-icon">🥩</span>
+        <div class="menu-item-name">Carnes Nobres</div>
+        <div class="menu-item-desc">Picanha, Filé Mignon e Parmegiana fresquinhos, preparados com maestria e servidos generosamente.</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-content">
+        <span class="menu-item-icon">🐟</span>
+        <div class="menu-item-name">Frutos do Mar</div>
+        <div class="menu-item-desc">Salmão, Tilápia e outros pescados frescos que elevam qualquer jantar a outro nível.</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-content">
+        <span class="menu-item-icon">🍹</span>
+        <div class="menu-item-name">Drinks & Bebidas</div>
+        <div class="menu-item-desc">Drinks exclusivos, vinhos selecionados, drinks infantis sem álcool e cervejas extremamente geladas.</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-content">
+        <span class="menu-item-icon">🍺</span>
+        <div class="menu-item-name">Cervejas Premium</div>
+        <div class="menu-item-desc">Heineken, Original, Brahma e outras marcas selecionadas, servidas extremamente geladas.</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-content">
+        <span class="menu-item-icon">🍱</span>
+        <div class="menu-item-name">Porções</div>
+        <div class="menu-item-desc">Porções muito caprichadas para compartilhar, ideais para grupos e datas especiais.</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-content">
+        <span class="menu-item-icon">☀️</span>
+        <div class="menu-item-name">Almoço de Domingo</div>
+        <div class="menu-item-desc">Um delicioso almoço especial aos domingos a partir das 11h. O programa perfeito para a família.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-center-btn reveal">
+    <a href="https://wa.me/5537999651328" target="_blank" class="btn-primary"><span>Ver cardápio completo no WhatsApp</span></a>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="galeria">
+  <div class="gallery-header reveal">
+    <div class="section-eyebrow" style="justify-content:center;">Galeria</div>
+    <h2 class="section-title" style="text-align:center;">Cada prato conta<br><em>uma história.</em></h2>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="gallery-item gallery-tall">
+      <div class="gallery-placeholder">
+        <span>🍱</span>
+        <p>Porções</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-placeholder">
+        <span>🍹</span>
+        <p>Drinks</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-placeholder">
+        <span>🌆</span>
+        <p>Vista da Cidade</p>
+      </div>
+    </div>
+    <div class="gallery-item gallery-wide">
+      <div class="gallery-placeholder">
+        <span>🏠</span>
+        <p>Espaço</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-placeholder">
+        <span>🥩</span>
+        <p>Carnes Nobres</p>
+      </div>
+    </div>
+  </div>
+  <p class="gallery-note reveal">Substitua os blocos acima por fotos reais do Instagram <strong>@petiscaria_nobre_sabor_</strong></p>
+  <div class="gallery-cta reveal">
+    <a href="https://www.instagram.com/petiscaria_nobre_sabor_/" target="_blank" class="btn-outline">Ver mais no Instagram →</a>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience" id="experiencia">
+  <div class="experience-left reveal">
+    <div class="section-eyebrow">Por que o Nobre Sabor?</div>
+    <h2 class="section-title">Viver<br>para<br><em>contar.</em></h2>
+    <p class="section-body">
+      Cada detalhe foi pensado para que sua visita vire uma história que você conta com saudade.
+    </p>
+    <a href="tel:+5537999651328" class="btn-outline" style="display:inline-block; margin-top:20px; border-color:var(--champagne); color:var(--champagne);">Reservar Agora</a>
+  </div>
+
+  <div class="experience-right reveal">
+    <div class="exp-item">
+      <div class="exp-num">01</div>
+      <div class="exp-content">
+        <div class="exp-title">Vista Privilegiada</div>
+        <div class="exp-desc">Uma vista belíssima da cidade de Carmópolis. O cenário perfeito para passar a tarde.</div>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-num">02</div>
+      <div class="exp-content">
+        <div class="exp-title">Atendimento Nota 10</div>
+        <div class="exp-desc">Nossa equipe vai além do esperado. Clientes que chegam cansados de viagem são bem-vindos com cuidado especial.</div>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-num">03</div>
+      <div class="exp-content">
+        <div class="exp-title">Ambiente Aconchegante</div>
+        <div class="exp-desc">Mesas externas, espaço familiar, ótimos coquetéis e um ambiente que convida você a ficar mais tempo.</div>
+      </div>
+    </div>
+    <div class="exp-item" style="border-bottom:none;">
+      <div class="exp-num">04</div>
+      <div class="exp-content">
+        <div class="exp-title">Datas Especiais</div>
+        <div class="exp-desc">Fazemos reservas para celebrar seus momentos mais importantes com toda a qualidade Nobre Sabor.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section class="reviews-section" id="avaliacoes">
+  <div class="reviews-header reveal">
+    <div class="section-eyebrow" style="justify-content:center;">Avaliações Google</div>
+    <h2 class="section-title" style="text-align:center;">O que nossos<br><em>clientes dizem.</em></h2>
+    <div class="reviews-rating-summary">
+      <div class="reviews-big-num">4.8</div>
+      <div class="reviews-stars-wrap">
+        <div class="stars" style="font-size:28px; letter-spacing:3px;">★★★★★</div>
+        <div class="reviews-count-label">295 AVALIAÇÕES NO GOOGLE</div>
+      </div>
+    </div>
+  </div>
+  <div class="reviews-grid reveal">
+    <div class="review-card">
+      <div class="review-card-header">
+        <div class="review-avatar">C</div>
+        <div>
+          <div class="review-name">Carol Silva</div>
+          <div class="review-meta">3 avaliações · 2 meses atrás · Jantar R$80–100</div>
+        </div>
+      </div>
+      <div class="review-stars-row">★★★★★</div>
+      <p class="review-text">"A atendente Sara foi um encanto de pessoa — educada, cordial, solicita e muito prestativa. O restaurante não trabalha com entrega, mas quando expliquei que estava muito cansado de viagem, ela se dispôs a encontrar uma solução. Funcionários assim são raros. Parabéns ao @Nobre Sabor!"</p>
+      <div class="review-scores">
+        <span>Comida 5/5</span>
+        <span>Serviço 5/5</span>
+        <span>Ambiente 5/5</span>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-card-header">
+        <div class="review-avatar review-avatar-gold">S</div>
+        <div>
+          <div class="review-name">Sabrina Aryane</div>
+          <div class="review-meta">Local Guide · 122 avaliações · 138 fotos</div>
+        </div>
+      </div>
+      <div class="review-stars-row">★★★★★</div>
+      <p class="review-text">"Ótimo atendimento, lugar aconchegante, porções muito caprichadas. Ótimos drinks — melhor lugar área familiar."</p>
+      <div class="review-scores">
+        <span>Comida 5/5</span>
+        <span>Ambiente 5/5</span>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-card-header">
+        <div class="review-avatar review-avatar-red">J</div>
+        <div>
+          <div class="review-name">Jussara</div>
+          <div class="review-meta">Local Guide · 213 avaliações · 283 fotos</div>
+        </div>
+      </div>
+      <div class="review-stars-row">★★★★★</div>
+      <p class="review-text">"No local agora é Nobre Sabor Petiscaria. Vista belíssima da cidade de Carmópolis. Para você passar a tarde é muito gostoso."</p>
+      <div class="review-scores">
+        <span>Comida 5/5</span>
+        <span>Serviço 5/5</span>
+        <span>Ambiente 5/5</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INFO -->
+<section class="info-section" id="contato">
+  <div class="reveal">
+    <div class="section-eyebrow">Nos encontre</div>
+    <h2 class="section-title">Venha<br><em>nos visitar.</em></h2>
+
+    <div class="info-block">
+      <div class="info-label">Endereço</div>
+      <div class="info-value">Estrada Risoleta Amaral, 201<br>Montanha — Carmópolis de Minas, MG<br>35534-000</div>
+    </div>
+
+    <div class="info-block">
+      <div class="info-label">Telefone & WhatsApp</div>
+      <div class="info-value">
+        <a href="tel:+5537999651328">(37) 99965-1328</a>
+      </div>
+    </div>
+
+    <div class="info-block">
+      <div class="info-label">Horário de Funcionamento</div>
+      <div class="info-value">
+        Quinta a Sábado: 18h30 em diante<br>
+        Domingo: a partir das 11h<br>
+        <small style="color:rgba(237,227,217,0.4); font-size:14px;">Segunda, Terça e Quarta: Fechado</small>
+      </div>
+    </div>
+
+    <div class="info-block">
+      <div class="info-label">Faixa de Preço</div>
+      <div class="info-value">R$ 40 – R$ 100 por pessoa</div>
+    </div>
+
+    <div class="info-block">
+      <div class="info-label">Opções</div>
+      <div class="info-value" style="font-size:16px;">Mesas externas · Reservas · Ótimos coquetéis</div>
+    </div>
+  </div>
+
+  <div class="reveal">
+    <a href="https://maps.google.com/?q=Estrada+Risoleta+Amaral+201+Carmpolis+de+Minas+MG" target="_blank" style="text-decoration:none;">
+      <div class="map-placeholder">
+        <div class="map-icon">📍</div>
+        <div class="map-text">Estrada Risoleta Amaral, 201<br>Carmópolis de Minas</div>
+      </div>
+    </a>
+    <a href="https://maps.google.com/?q=Estrada+Risoleta+Amaral+201+Carmpolis+de+Minas+MG" target="_blank" class="map-link">
+      Abrir no Google Maps →
+    </a>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="instagram-section">
+  <div class="instagram-inner reveal">
+    <div class="instagram-header">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      <div>
+        <h3>@petiscaria_nobre_sabor_</h3>
+        <p>7.188 seguidores · 95 publicações</p>
+      </div>
+    </div>
+    <p class="instagram-bio">Aberto a partir das 18h30, de quinta à sábado. Aos domingos a partir das 11h. Ótimo atendimento, com variadas porções.</p>
+    <a href="https://www.instagram.com/petiscaria_nobre_sabor_/" target="_blank" class="btn-primary" style="display:inline-block;"><span>Seguir no Instagram</span></a>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <div class="reveal">
+    <h2 class="cta-final-title">Pensou em<br>comida boa?<br><em>Pense Nobre Sabor.</em></h2>
+    <p class="cta-final-sub">Entre em contato agora mesmo e garanta sua mesa.</p>
+    <div class="cta-final-btns">
+      <a href="https://wa.me/5537999651328" target="_blank" class="btn-whatsapp">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <a href="tel:+5537999651328" class="btn-reserve">Ligar Agora</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">NOBRE<span>_</span>SABOR <small style="font-size:14px; font-family:'Cormorant Garamond',serif; font-weight:300; opacity:0.5;">Petiscaria</small></div>
+  <div class="footer-info">
+    Estrada Risoleta Amaral, 201 · Montanha · Carmópolis de Minas, MG<br>
+    (37) 99965-1328 · R$ 40–100 por pessoa<br>
+    <small style="opacity:0.6;">Qui–Sáb: 18h30 · Dom: a partir das 11h</small>
+  </div>
+  <div class="footer-socials">
+    <a href="https://www.instagram.com/petiscaria_nobre_sabor_/" target="_blank" class="social-link" title="Instagram">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>
+    <a href="https://wa.me/5537999651328" target="_blank" class="social-link" title="WhatsApp">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+  </div>
+</footer>
+
+<!-- DEV FOOTER -->
+<div id="dev-footer">
+  <div class="dev-footer-inner">
+    <div class="dev-footer-left">
+      <img src="images/devLogo.png" alt="Matheus Carques" onerror="this.style.display='none'">
+      <span>© Matheus Carques Developer</span>
+    </div>
+    <ul class="dev-footer-socials">
+      <li>
+        <a href="https://www.instagram.com/mcarques_dev?igsh=a3ZkcDU4ZmhnbW01" target="_blank" aria-label="Instagram" class="dev-icon dev-instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://wa.me/5537998044629" target="_blank" aria-label="WhatsApp" class="dev-icon dev-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/matheus-carques" target="_blank" aria-label="LinkedIn" class="dev-icon dev-linkedin">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
